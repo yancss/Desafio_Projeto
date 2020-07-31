@@ -1,0 +1,57 @@
+{% extends "template.html" %}
+{% block conteudo %}
+    <form action="{{ url_for('inserir_cliente') }}" method="post">
+        <fieldset>
+          <div class="form-group">
+            <label for="nome_cliente">Cliente</label>
+            <input type="text" id="nome_cliente" name="nome_cliente" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="razao_social">Razão Social</label>
+            <input type="text" id="razao_social" name="razao_social" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="cpf_cnpj">CPF/CNPJ</label>
+            <input type="text" id="cpf_cnpj" name="cpf_cnpj" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone" max="10" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="insc_estadual">Inscrição Estadual</label>
+            <input type="text" id="insc_estadual" name="insc_estadual" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="celular">Celular</label>
+            <input type="text" id="celular" name="celular" max="11" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="n_endereco">N° do Endereço</label>
+            <input type="text" id="n_endereco" name="n_endereco" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="id_grupo">Grupo do Cliente</label>
+            <input type="text" id="id_grupo" name="id_grupo" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="id_cidade">Cidade</label>
+            <input type="text" id="id_cidade" name="id_cidade" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="id_bairro">Bairro</label>
+            <input type="text" id="id_bairro" name="id_bairro" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="id_endereco">Endereço</label>
+            <input type="text" id="id_endereco" name="id_endereco" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-primary btn-salvar">Salvar</button>
+          <a class="btn btn-danger" href="{{ url_for('index') }}">Voltar</a>
+        </fieldset>
+    </form>
+{% endblock %}

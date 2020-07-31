@@ -1,0 +1,47 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+    <a class="btn btn-primary" href="{{ url_for('novo_cliente') }}">Novo Cliente</a>
+    <table class="table table-striped table-responsive table-bordered">
+        <thead>
+            <tr>
+                <th>ID_Cliente</th>
+                <th>Cliente</th>
+                <th>Razão Social</th>
+                <th>CPF/CNPJ</th>
+                <th>Inscrição Social</th>
+                <th>Telefone</th>
+                <th>Celular</th>
+                <th>Email</th>
+                <th>N° endereço</th>
+                <th>Grupo do Cliente</th>
+                <th>Cidade</th>
+                <th>Bairro</th>
+                <th>Endereço</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for cliente in clientes %}
+                        <tr>
+                            <td>{{ cliente.id_cliente }}</td>
+                            <td>{{ cliente.nome_cliente }}</td>
+                            <td>{{ cliente.razao_social }}</td>
+                            <td>{{ cliente.cpf_cnpj }}</td>
+                            <td>{{ cliente.insc_estadual }}</td>
+                            <td>{{ cliente.telefone }}</td>
+                            <td>{{ cliente.celular }}</td>
+                            <td>{{ cliente.email }}</td>
+                            <td>{{ cliente.n_endereco }}</td>
+                            <td>{{ cliente.id_grupo }}</td>
+                            <td>{{ cliente.id_cidade }}</td>
+                            <td>{{ cliente.id_bairro }}</td>
+                            <td>{{ cliente.id_endereco }}</td>
+                            <td>
+                                <a href="{{ url_for('editor', id_cliente=cliente.id_cliente) }}">Editar</a>
+                                <a href="{{ url_for('deletar', id_cliente=cliente.id_cliente) }}">Deletar</a>
+                            </td>
+                        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
