@@ -29,7 +29,7 @@
   </component>
   <component name="RunManager" selected="Python.aplicacao (1)">
     <configuration name="aplicacao (1)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="aula1 - Copia" />
+      <module name="desafio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -50,7 +50,7 @@
       <method v="2" />
     </configuration>
     <configuration name="aplicacao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="aula1 - Copia" />
+      <module name="desafio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -71,7 +71,7 @@
       <method v="2" />
     </configuration>
     <configuration name="dao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="aula1 - Copia" />
+      <module name="desafio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -92,7 +92,7 @@
       <method v="2" />
     </configuration>
     <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="aula1 - Copia" />
+      <module name="desafio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -113,7 +113,7 @@
       <method v="2" />
     </configuration>
     <configuration name="prepara_banco (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="aula1 - Copia" />
+      <module name="desafio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -134,7 +134,7 @@
       <method v="2" />
     </configuration>
     <configuration name="prepara_banco" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="aula1 - Copia" />
+      <module name="desafio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
