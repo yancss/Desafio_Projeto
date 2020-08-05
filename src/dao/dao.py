@@ -1,4 +1,4 @@
-from models import Cliente
+from src.models.models import Cliente
 
 SQL_DELETA_CLIENTE = 'DELETE FROM aplicacao.cliente where id_cliente = %s'
 SQL_CLIENTE_POR_ID = 'SELECT id_cliente, nome_cliente, razao_social, cpf_cnpj, insc_estadual, celular, telefone, email, n_endereco, id_grupo, id_cidade, id_bairro, id_endereco from aplicacao.cliente where id_cliente = %s'

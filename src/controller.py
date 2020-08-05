@@ -1,7 +1,7 @@
-from flask import Flask, render_template, request, redirect, session, flash, url_for
-from dao import ClienteDao
+from flask import Flask, render_template, request, redirect, flash, url_for
+from src.dao.dao import ClienteDao
 from flask_mysqldb import MySQL
-from models import Cliente, Grupo_Cliente
+from src.models.models import Cliente
 
 app = Flask(__name__)
 app.secret_key = 'yan'
